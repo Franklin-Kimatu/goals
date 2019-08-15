@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    {{goal.description}}
+  </p>
+  <p>This goasl will be complete in {{goal.completeDate|dateCount}} days</p>
+  <button (click)= 'goalDelete(true)' class="btn btn-danger">Delete</button>
+</body>
+</html>
